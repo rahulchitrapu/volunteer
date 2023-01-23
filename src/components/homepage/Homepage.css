@@ -1,0 +1,75 @@
+.homepage-container{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.homepage-left{
+    width: 18%;
+    height: 100%;
+    background-color: aliceblue;
+    
+}
+.homepage-right{
+    width: 82%;
+    height: 100%;
+  
+    /* border: 1px solid red; */
+}
+.smytten-logo{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: #003687;
+}
+.smytten-logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company-name{
+    font-size: 24px;
+    color: white;
+    margin-left: 2%;
+}
+.log-out-container{
+    margin-right: 2%;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.log-out-container:hover{
+    scale: 1.2;
+    transition: ease-in;
+}
+.sub-category{
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+    color: black;
+    font-size: 18px;
+}
+
+.active-defalut{
+    width: 90%;
+    height: 45px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+    color: #003687;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 0px -10px -10px 0px;
+    
+}
