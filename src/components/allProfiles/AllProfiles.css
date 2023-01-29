@@ -54,3 +54,261 @@
         align-items: center;
         width: 100%;
   }
+
+
+  .product-container{
+    width: 100%;
+    height: 100%;
+}
+.product-container1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container{
+    width: 100%;
+    height: 85%;
+    overflow: scroll;
+    
+}
+.table-container1{
+    width: 100%;
+}
+.table-container1 tbody tr{
+    cursor: pointer;
+}
+.search-continer {
+
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.search-btn{
+    position: absolute;
+    right: 3px;
+    cursor: pointer;
+}
+.search-continer #search{
+    width: 300px;
+
+    height: 20px;
+}
+
+.product-container-top-section{
+    width: 100%;
+    height: 5%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.table-header{
+    border-bottom: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+.table-body-even{
+    background-color: rgba(225, 221, 221, 0.874);
+    height: 30px;
+}
+.table-body-odd{
+    height: 30px;
+}
+.table-body-name{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.pagination{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round1{
+    color: rgb(131, 133, 135);
+    background-color: rgb(176, 176, 176);
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.active{
+    background-color: rgb(4, 56, 108);
+    color: rgb(237, 236, 236);
+}
+
+.pagination-container li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+/* .big-text{
+    width: 100%;
+    height: 50px;
+} */
+
+.rich-editor-style{
+    /* border: 1px solid black; */
+    padding: 2px;
+    height: 250px;
+    width: 70%;
+    /* background-color: white; */
+}
+
+.rdw-editor-main {
+    height: 150px !important;
+    box-sizing: border-box;
+    overflow: scroll !important;
+}
+.public-DraftStyleDefault-block{
+    margin: 0px  !important;
+}
+
+.ql-container.ql-snow{
+    background-color: white;
+    height: 200px;
+    overflow: scroll;
+}
+
+.ql-toolbar.ql-snow{
+    background-color: white;
+}
+
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 10px;
+
+}
+
+.flex{
+    width: 70%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 5px;
+    height: 30px;
+}
+.add-new-person{
+    border-bottom: 1px solid rgb(47, 47, 211);
+    color: rgb(47, 47, 211);
+}
+
+.flex div{
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+   
+}
+
+.mt-20{
+margin-top: 50px;
+}
+
+.flex div input[type='text'],.flex div input[type='number']{
+    width: 70%;
+}
+
+.save{
+    background-color: rgb(42, 213, 42);
+    color: white;
+    width: 100px;
+    margin-left: 30%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 6px;
+}
+.save:hover{
+    background-color: rgb(1, 144, 1);
+    cursor: pointer;
+}
+.add{
+    background-color: white;
+    border: 1px solid ;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.children{
+    margin:2px 5px;
+    background-color: rgb(146, 221, 196);
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.width-41{
+    width: 41%;
+}
+
+.remove{
+    margin-left: 10px;
+    cursor: pointer;
+    /* border: 1px solid; */
+    border-radius: 5px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container1{
+
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.form-container1 input{
+    width: 100% !important;
+}
+.flex1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 16%;
+    width: 25%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    text-align: left;
+}
+.delete-btn{
+    color: white;
+    background-color: rgb(205, 94, 94);
+    width: 50%;
+    margin-left: 25%;
+    padding: 2px 10px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.space-around{
+    display: flex;
+    justify-content:space-around;
+}
+
+.width-200px{
+    width: 200px !important;
+}

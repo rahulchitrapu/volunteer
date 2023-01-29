@@ -30,12 +30,15 @@ export default function SignIn() {
     .then(res=>{
         console.log(res.data.message)
         setMessage(res.data.message)
-        localStorage.setItem("userId", res.data.userId);
-        localStorage.setItem("userName",res.data.username)
-        navigate({
-            pathname:"/home",
-            search:""
-        })
+        if(res.data.userId){
+            localStorage.setItem("userId", res.data.userId);
+            localStorage.setItem("userName",res.data.username)
+            navigate({
+                pathname:"/home",
+                search:""
+            })
+        } 
+        
     })
     .catch(err=>console.log(err))
   };
